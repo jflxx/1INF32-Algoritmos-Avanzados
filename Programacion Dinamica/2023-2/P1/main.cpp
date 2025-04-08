@@ -56,8 +56,8 @@ int cortes(int arr[],int n){
 }
 
 int main(int argc, char** argv) {
-    int arr[] = {16,22,22,52,11,11,11,4,28,19,28,28};
-//    int arr[] = {10,20,20,10,11,23,13,23,30,25};
+//    int arr[] = {16,22,22,52,11,11,11,4,28,19,28,28};
+    int arr[] = {10,20,20,10,11,23,13,23,30,25};
     int n = sizeof(arr)/sizeof(int);
     
     cout << cortes(arr,n);
